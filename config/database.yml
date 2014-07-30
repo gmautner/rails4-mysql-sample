@@ -14,9 +14,9 @@ development:
   reconnect: false
   database: mysql_development
   pool: 5
-  username: jack
-  password: jill
-  host: localhost
+  username: root
+  password: 6kuLqDLCaV
+  host: mysql-giba-ruby.jelasticlw.com.br
   port: 3306
 
 # Warning: The database defined as "test" will be erased and
@@ -28,9 +28,9 @@ test:
   reconnect: false
   database: mysql_test
   pool: 5
-  username: jack
-  password: jill
-  host: localhost
+  username: root
+  password: 6kuLqDLCaV
+  host: mysql-giba-ruby.jelasticlw.com.br
   port: 3306
 
 production:
@@ -39,5 +39,7 @@ production:
   reconnect: false
   database: mysql_production
   pool: 5
-  host: localhost
+  username: root
+  password: 6kuLqDLCaV
+  host: mysql-giba-ruby.jelasticlw.com.br
   port: 3306
